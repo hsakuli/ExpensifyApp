@@ -48,7 +48,6 @@ export { firebase, database as default };
 // 	.once('value')
 // 	.then((snapshot) => {
 // 		const expenses = [];
-
 // 		snapshot.forEach((childSnapshot) => {
 // 			expenses.push({
 // 				id: childSnapshot.key,
@@ -56,7 +55,6 @@ export { firebase, database as default };
 // 			});
 // 		});
 // 		console.log(expenses)
-
 // 	});
 
 // database.ref('expenses').push({
@@ -78,11 +76,6 @@ export { firebase, database as default };
 // 		}
 // 	}
 // }
-
-// database.ref('notes').push({
-// 	title: "yeet",
-// 	body: "yeet"
-// })
 
 
 // const onValueChange = database.ref()
